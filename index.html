@@ -1243,7 +1243,6 @@ function sendContactEnquiry() {
   const msg = `🌄 *Enquiry – Sampooran Holidays*\n\n👤 Name: ${name||'—'}\n📞 Phone: ${phone}\n✉️ Email: ${email||'—'}\n📍 Destination: ${dest||'—'}\n📅 Date: ${date||'Flexible'}\n👥 Travellers: ${pax} persons\n💬 Notes: ${msg_text||'—'}`;
   window.open(`https://wa.me/+917018465381?text=${encodeURIComponent(msg)}`, '_blank');
 }
-
 // ─── UI UTILS ────────────────────────────────────────────────────────────────
 function toggleMobileNav() {
   document.getElementById('mobileNav').classList.toggle('open');
