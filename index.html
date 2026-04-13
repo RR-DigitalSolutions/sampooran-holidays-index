@@ -949,7 +949,7 @@ const PACKAGES = [
     id:'shimla-manali', filter:'himachal',
     title:'Shimla – Manali Honeymoon Special',
     subtitle:'Kufri · Rohtang Pass · Solang Valley',
-    image:'https://images.unsplash.com/photo-1598092753170-a888d2c47c5a?w=800&q=80',
+    image:'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80',
     duration:'5 Nights / 6 Days', groupSize:'2–20 Pax', transport:'Private Cab',
     price:14999, original:19999, rating:4.8, reviews:342,
     bestseller:true, featured:true,
@@ -1243,6 +1243,7 @@ function sendContactEnquiry() {
   const msg = `🌄 *Enquiry – Sampooran Holidays*\n\n👤 Name: ${name||'—'}\n📞 Phone: ${phone}\n✉️ Email: ${email||'—'}\n📍 Destination: ${dest||'—'}\n📅 Date: ${date||'Flexible'}\n👥 Travellers: ${pax} persons\n💬 Notes: ${msg_text||'—'}`;
   window.open(`https://wa.me/+917018465381?text=${encodeURIComponent(msg)}`, '_blank');
 }
+
 // ─── UI UTILS ────────────────────────────────────────────────────────────────
 function toggleMobileNav() {
   document.getElementById('mobileNav').classList.toggle('open');
